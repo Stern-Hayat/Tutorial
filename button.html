@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    
+   <link href="button.css" type="text/css" rel="stylesheet">
+    
+    <style type="text/css">
+        .footer {
+            bottom: 0;
+            width: 100%;
+            height: 60px;
+            background-color: #3b3b3b;
+            color: white;
+            text-align: center;
+        }
+        
+        .red{
+            font-weight: bold;
+            color: red;
+        }
+        
+        .bt-a1-sample{
+            width: 260px;
+            height: 50px;
+            border: 2px solid #665a36;
+            border-radius: 3px;
+            background-color: #998c69;
+            color: white;
+            font-size: 8px;
+        }
+        
+        .bt-a2-sample{
+            width: 208px;
+            height: 32px;
+            border: 2px solid #000000;
+            border-radius: 3px;
+            background-color: #6a6a68;
+            color: white;
+            font-size: 11px;
+            display: none;
+        }
+        
+    </style>
+    
+    <script>
+        function disable(){
+            document.getElementById("tutorial").style.display = "none";
+            document.getElementByClassName('bt-a2-sample').style.display = "block";
+        }
+    </script>
+    
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+      <a href="index.html" class="navbar-brand">Archive</a>
+
+      <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#target_point">Button</a>
+     </div>
+</nav>
+
+<div class="page">
+  
+        <div class="row m-3">
+            <h3>　エレガントで落ち着いたイメージ</h3>
+        </div>
+
+        <div class="row m-3">
+            <p>　　出典：<a href="http://www.hp-stylelink.com/news/2013/07/20130708.php#lowList13">カラー配色で迷わない！シーン別配色見本32パターン</a></p>
+             <input type="button" onclick="" value="再表示する"　id="able-button" class="bt-a2-sample">
+        </div>
+
+  
+   
+    <div id="tutorial">
+         <div class="row p-3 m-3" style="border: 3px dashed #665a36;">
+            <div class="col-12">
+                <h5>cssファイルの解説（.bt-a1の例）</h5>
+                <h6>■事前準備：「button.html」「button.css」を開く</h6>            
+            </div>    
+                <div class="col-6">
+                   　<br>
+                    <h6>button.cssの1行目を確認してみる。するとこんなコードがある</h6>
+                    <p>.bt-a1{<br>
+                        　　width: 208px;<br>
+                        　　height: 32px;<br>
+                        　　border: 2px solid #665a36;<br>
+                        　　border-radius: 3px;<br>
+                        　　background-color: #998c69;<br>
+                        　　color: white;　<br>
+                        　　font-size: 11px;<br>
+                    }</p>  
+                </div>
+                <div class="col-6">
+                     <p><br><br><br>
+                          ←ボタンの幅を指定するコード（単位：ピクセル）<br>
+                        　　←ボタンの高さを指定するコード（単位：ピクセル）<br>
+                        　　←ボタンの線を指定するコード（左から順に、太さ・直線・色）<br>
+                        　　←ボタンの角の丸みを指定するコード（単位：ピクセル）<br>
+                        　　←ボタンの背景色を指定するコード<br>
+                        　　←ボタンの文字色を指定するコード（単位：ピクセル）<br>
+                        　　←ボタンのフォントサイズを指定するコード（単位：ピクセル）<br>
+                </div>
+
+                <p>cssプロパティは山ほどあるので、追加したいcssがあったら自分で検索してみよう！</p>     
+        </div>
+        
+        
+        <div class="row p-3 m-3" style="border: 3px dashed #665a36;">
+            <div class="col-12">
+                <h6>例えば...</h6>
+                <p>フォントサイズを8pxに, 幅を広く, 高さを変えたいときは</p>
+            </div>    
+                <div class="col-6">
+                    <p>.bt-a1{<br>
+                        　　width: <span class="red">260</span>px;<br>
+                        　　height: <span class="red">50</span>px;<br>
+                        　　border: 2px solid #665a36;<br>
+                        　　border-radius: 3px;<br>
+                        　　background-color: #998c69;<br>
+                        　　color: white;　<br>
+                        　　font-size: <span class="red">8</span>px;<br>
+                    }</p>  
+                </div>
+                <div class="col-6">
+                     <p><br>
+                          ←ボタンの幅を指定するコード（単位：ピクセル）<br>
+                        　　←ボタンの高さを指定するコード（単位：ピクセル）<br>
+                        　　←ボタンの線を指定するコード（左から順に、太さ・直線・色）<br>
+                        　　←ボタンの角の丸みを指定するコード（単位：ピクセル）<br>
+                        　　←ボタンの背景色を指定するコード<br>
+                        　　←ボタンの文字色を指定するコード（単位：ピクセル）<br>
+                        　　←ボタンのフォントサイズを指定するコード（単位：ピクセル）<br>
+                </div>
+
+                    
+                <div class="col-4">
+                   <p>すると、こんな感じに変わります。</p>
+                    <h5>.bt-a1-sample</h5>
+                    <input type="button" class="bt-a1-sample" value="BUTTON">   
+                    <br>
+                    <br>
+                    <p>ここからは自分で好きなようにいじってみよう</p>
+                    <input type="button" onclick="disable()" value=" Done!!(解説を非表示)" class="bt-a9">
+                </div> 
+                
+                
+        </div>       
+        
+        
+        
+    </div>
+        <div class="col-12 text-center p-3">
+            <h3>収録サンプル一覧</h3>        
+        </div>   
+       
+        <div class="row p-3 text-center" >
+            <div class="col-4">
+                <h5>.bt-a1</h5>
+                <input type="button" class="bt-a1" value="BUTTON">        
+            </div>
+            <div class="col-4">
+                <h5>.bt-a2</h5>
+                <input type="button" class="bt-a2" value="BUTTON">        
+            </div>
+            <div class="col-4">
+                <h5>.bt-a3</h5>
+                <input type="button" class="bt-a3" value="BUTTON">        
+            </div>
+        </div>
+
+        <div class="row p-3 text-center" >
+            <div class="col-4">
+                <h5>.bt-a4</h5>
+                <input type="button" class="bt-a4" value="BUTTON">        
+            </div>
+            <div class="col-4">
+                <h5>.bt-a5</h5>
+                <input type="button" class="bt-a5" value="BUTTON">        
+            </div>
+            <div class="col-4">
+                <h5>.bt-a6</h5>
+                <input type="button" class="bt-a6" value="BUTTON">        
+            </div>
+        </div>
+           
+        <div class="row p-3 text-center">
+            <div class="col-4">
+                <h5>.bt-a7</h5>
+                <input type="button" class="bt-a7" value="BUTTON">        
+            </div>
+            <div class="col-4">
+                <h5>.bt-a8</h5>
+                <input type="button" class="bt-a8" value="BUTTON">        
+            </div>
+            <div class="col-4">
+                <h5>.bt-a9</h5>
+                <input type="button" class="bt-a9" value="BUTTON">        
+            </div>
+        </div>
+        
+         <div class="row p-3 text-center">
+            <div class="col-4">
+                <h5>.bt-a10</h5>
+                <input type="button" class="bt-a10" value="BUTTON">        
+            </div>
+            <div class="col-4">
+                <h5>.bt-a11</h5>
+                <input type="button" class="bt-a11" value="BUTTON">        
+            </div>
+            <div class="col-4">
+                <h5>.bt-a12</h5>
+                <input type="button" class="bt-a12" value="BUTTON">        
+            </div>
+        </div>  
+
+        <div class="row p-3 text-center">
+            <div class="col-4">
+                <h5>.bt-a13</h5>
+                <input type="button" class="bt-a13" value="BUTTON">        
+            </div>
+            <div class="col-4">
+                <h5>.bt-a14</h5>
+                <input type="button" class="bt-a14" value="BUTTON">        
+            </div>
+            <div class="col-4">
+                <h5>.bt-a15</h5>
+                <input type="button" class="bt-a15" value="BUTTON">        
+            </div>
+        </div>
+                
+        <div class="row p-3 text-center">
+            <div class="col-4">
+                <h5>.bt-a16</h5>
+                <input type="button" class="bt-a16" value="BUTTON">        
+            </div>
+            <div class="col-4">
+                <h5>.bt-a17</h5>
+                <input type="button" class="bt-a17" value="BUTTON">        
+            </div>
+            <div class="col-4">
+                <h5>.bt-a18</h5>
+                <input type="button" class="bt-a18" value="BUTTON">        
+            </div>
+        </div>               
+
+        <div class="row p-3 text-center">
+            <div class="col-4">
+                <h5>.bt-a19</h5>
+                <input type="button" class="bt-a19" value="BUTTON">        
+            </div>
+            <div class="col-4">
+                <h5>.bt-a20</h5>
+                <input type="button" class="bt-a20" value="BUTTON">        
+            </div>
+            <div class="col-4">
+                <h5>.bt-a21</h5>
+                <input type="button" class="bt-a21" value="BUTTON">        
+            </div>
+        </div>
+                
+        <div class="row p-3 text-center">
+            <div class="col-4">
+                <h5>.bt-a22</h5>
+                <input type="button" class="bt-a22" value="BUTTON">        
+            </div>
+            <div class="col-4">
+                <h5>.bt-a23</h5>
+                <input type="button" class="bt-a23" value="BUTTON">        
+            </div>
+            <div class="col-4">
+                <h5>.bt-a24</h5>
+                <input type="button" class="bt-a24" value="BUTTON">        
+            </div>
+        </div>                                                                                         
+                                                            
+        <div class="row p-3 text-center">
+            <div class="col-4">
+                <h5>.bt-a</h5>
+                <input type="button" class="bt-a" value="BUTTON">        
+            </div>
+            <div class="col-4">
+                <h5>.bt-a</h5>
+                <input type="button" class="bt-a" value="BUTTON">        
+            </div>
+            <div class="col-4">
+                <h5>.bt-a</h5>
+                <input type="button" class="bt-a" value="BUTTON">        
+            </div>
+        </div>
+            
+</div>
+
+
+<footer class="footer footer-expand-sm footer-dark bg-dark">
+  <div class="container">
+
+  </div>
+</footer>
+
+   
+   <!--jQueryを呼び出すのに必要。残しておく-->
+    <script
+     src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>

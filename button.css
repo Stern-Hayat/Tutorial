@@ -1,0 +1,472 @@
+/*bt-a1のボタンサンプルを使いたい時*/
+/*ここからコピー*/
+.bt-a1{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #665a36;
+    border-radius: 3px;
+    background-color: #998c69;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a1:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #998c69;
+    border-radius: 3px;
+    background-color: #665a36;
+    color: white;
+    font-size: 11px;
+}
+
+/*必ず対応するclassの:hoverの終わりまでコピーする*/
+/*ここまでコピー。以下同様*/
+
+.bt-a2{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #000000;
+    border-radius: 3px;
+    background-color: #6a6a68;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a2:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #6a6a68;
+    border-radius: 3px;
+    background-color: #000000;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a3{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #5e2a58;
+    border-radius: 3px;
+    background-color: #5f556e;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a3:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #5f556e;
+    border-radius: 3px;
+    background-color: #5e2a58;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a4{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #665a36;
+    border-radius: 3px;
+    color: #665a36;
+    font-size: 11px;
+}
+
+.bt-a4:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #665a36;
+    border-radius: 3px;
+    background-color: #665a36;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a5{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #000000;
+    border-radius: 3px;
+    color: black;
+    font-size: 11px;
+}
+
+.bt-a5:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #665a36;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a6{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #5e2a58;
+    border-radius: 3px;
+    color: #5e2a58;
+    font-size: 11px;
+}
+
+.bt-a6:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #665a36;
+    border-radius: 3px;
+    background-color: #5e2a58;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a7{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #665a36;
+    -webkit-box-shadow:0px 0px 0px 1px #ffffff inset;
+    -moz-box-shadow:0px 0px 0px 1px #ffffff inset;
+  　box-shadow:0px 0px 0px 1px #ffffff inset;
+    background-color: #998c69;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a7:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #998c69;
+    background-color: #665a36;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a8{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #000000;
+    -webkit-box-shadow:0px 0px 0px 1px #ffffff inset;
+    -moz-box-shadow:0px 0px 0px 1px #ffffff inset;
+  　box-shadow:0px 0px 0px 1px #ffffff inset;
+    background-color: #6a6a68;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a8:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #6a6a68;
+    background-color: #000000;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a9{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #5e2a58;
+    -webkit-box-shadow:0px 0px 0px 1px #ffffff inset;
+    -moz-box-shadow:0px 0px 0px 1px #ffffff inset;
+  　box-shadow:0px 0px 0px 1px #ffffff inset;
+    background-color: #5f556e;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a9:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #5f556e;
+    background-color: #5e2a58;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a10{
+    width: 208px;
+    height: 32px;
+    border: dashed 2px #665a36;
+    background-color: #998c69;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a10:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px dashed #998c69;
+    background-color: #665a36;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a11{
+    width: 208px;
+    height: 32px;
+    border: 2px dashed #000000;
+    background-color: #6a6a68;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a11:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px dashed #6a6a68;
+    background-color: #000000;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a12{
+    width: 208px;
+    height: 32px;
+    border: 2px dashed #5e2a58;
+    background-color: #5f556e;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a12:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px dashed #5f556e;
+    background-color: #5e2a58;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a13{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #5c002f;
+    border-radius: 3px;
+    background-color: #872226;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a13:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #872226;
+    border-radius: 3px;
+    background-color: #5c002f;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a14{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #814523;
+    border-radius: 3px;
+    background-color: #bf7220;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a14:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #bf7220;
+    border-radius: 3px;
+    background-color: #814523;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a15{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #6a6a68;
+    border-radius: 3px;
+    background-color: #244765;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a15:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #5f556e;
+    border-radius: 3px;
+    background-color: #6a6a68;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a16{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #5c002f;
+    border-radius: 3px;
+    color: #5c002f;
+    font-size: 11px;
+}
+
+.bt-a16:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #872226;
+    border-radius: 3px;
+    background-color: #5c002f;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a17{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #814523;
+    border-radius: 3px;
+    color: #814523;
+    font-size: 11px;
+}
+
+.bt-a17:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #665a36;
+    border-radius: 3px;
+    background-color: #814523;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a18{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #244765;
+    border-radius: 3px;
+    color: #244765;
+    font-size: 11px;
+}
+
+.bt-a18:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #6a6a68;
+    border-radius: 3px;
+    background-color: #244765;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a19{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #5c002f;
+    -webkit-box-shadow:0px 0px 0px 1px #ffffff inset;
+    -moz-box-shadow:0px 0px 0px 1px #ffffff inset;
+  　box-shadow:0px 0px 0px 1px #ffffff inset;
+    background-color: #872226;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a19:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #872226;
+    background-color: #5c002f;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a20{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #814523;
+    -webkit-box-shadow:0px 0px 0px 1px #ffffff inset;
+    -moz-box-shadow:0px 0px 0px 1px #ffffff inset;
+  　box-shadow:0px 0px 0px 1px #ffffff inset;
+    background-color: #bf7220;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a20:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #bf7220;
+    background-color: #814523;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a21{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #6a6a68;
+    -webkit-box-shadow:0px 0px 0px 1px #ffffff inset;
+    -moz-box-shadow:0px 0px 0px 1px #ffffff inset;
+  　box-shadow:0px 0px 0px 1px #ffffff inset;
+    background-color: #244765;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a21:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px solid #5f556e;
+    background-color: #6a6a68;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a22{
+    width: 208px;
+    height: 32px;
+    border: dashed 2px #5c002f;
+    background-color: #872226;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a22:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px dashed #872226;
+    background-color: #5c002f;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a23{
+    width: 208px;
+    height: 32px;
+    border: 2px dashed #814523;
+    background-color: #bf7220;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a23:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px dashed #bf7220;
+    background-color: #814523;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a24{
+    width: 208px;
+    height: 32px;
+    border: 2px dashed #6a6a68;
+    background-color: #244765;
+    color: white;
+    font-size: 11px;
+}
+
+.bt-a24:hover{
+    width: 208px;
+    height: 32px;
+    border: 2px dashed #5f556e;
+    background-color: #6a6a68;
+    color: white;
+    font-size: 11px;
+}
